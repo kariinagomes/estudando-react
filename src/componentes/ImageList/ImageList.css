@@ -1,0 +1,23 @@
+.gallery-container {
+    margin: 10px auto; /* auto: centraliza */
+    width: 1360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap; /*se notar que o container passou do tamanho fixo dele, quebra linha */
+}
+
+.gallery-container > div {
+    width: 250px;
+    height: 380px;
+    margin: 10px;
+    background-color: #363636;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}

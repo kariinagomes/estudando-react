@@ -1,25 +1,29 @@
 import React from 'react';
 import logo from './logo.svg';
+
+import Header from './componentes/Header/Header.js';
+import ImageList from './componentes/ImageList/ImageList.js';
+
 import './App.css';
+import FixedMenu from './componentes/FixedMenu/FixedMenu';
 
 function App() {
+  
+  const data = [ "Teste1", "Teste2" ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <FixedMenu />
+      <Header />
+      <ImageList />
+      {/* <ImageList data={data} />  */}
     </div>
+
+    // <div className="App">
+    //   <Header />
+
+    //   <ImageList data={data} />
+    // </div>
   );
 }
 
