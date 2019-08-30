@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 
 import FixedMenu from './componentes/FixedMenu/FixedMenu';
 import Header from './componentes/Header/Header.js';
@@ -16,11 +15,9 @@ function App() {
     <div>
       <FixedMenu />
       <Header />
-      <ImageList />
-      {/* <ImageList>
+      <ImageList>
         <ImageItem />
-      </ImageList> */}
-      
+      </ImageList>
     </div>
   );
 }

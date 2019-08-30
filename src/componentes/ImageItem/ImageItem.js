@@ -1,7 +1,8 @@
 import React from 'react';
 import filme1 from '../../imgs/filme1.jpg'
 
- {/* export default props => <li>{props.children}</li>; */}
+import './ImageItem.css'
+
 const ImageItem = () => {
   return(
     <div>
