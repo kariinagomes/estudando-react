@@ -1,14 +1,13 @@
 import React from 'react';
 import './Header.css'
-import logo from '../../imgs/logo-sciensa-pb2.png';
 
 export default () => (
     <div class="header">
-        <div class="header-logo">
-            <img class="logo-content" src={logo} alt="Logo da Sciensa"/>
+        <div>
+            <h1 class="title-trainee">Programa de Trainees</h1>
         </div>
-        <div class="header-content">
-            <button>Adicionar filme</button>
+        <div>
+            <h1>SCIENSA</h1>
         </div>
     </div>
 )

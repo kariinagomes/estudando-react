@@ -1,11 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 
+import FixedMenu from './componentes/FixedMenu/FixedMenu';
 import Header from './componentes/Header/Header.js';
 import ImageList from './componentes/ImageList/ImageList.js';
+import ImageItem from './componentes/ImageItem/ImageItem.js';
 
 import './App.css';
-import FixedMenu from './componentes/FixedMenu/FixedMenu';
 
 function App() {
   
@@ -16,14 +17,11 @@ function App() {
       <FixedMenu />
       <Header />
       <ImageList />
-      {/* <ImageList data={data} />  */}
+      {/* <ImageList>
+        <ImageItem />
+      </ImageList> */}
+      
     </div>
-
-    // <div className="App">
-    //   <Header />
-
-    //   <ImageList data={data} />
-    // </div>
   );
 }
 

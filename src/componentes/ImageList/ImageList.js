@@ -1,8 +1,5 @@
 import React from 'react';
-
-import ImageItem from '../ImageItem/ImageItem.js';
-
-import image1 from '../../imgs/filme1.jpg'
+import filme1 from '../../imgs/filme1.jpg'
 
 import './ImageList.css'
 
@@ -10,9 +7,19 @@ const ImageList = () => {
     return(
         <div class="gallery-container">
             <div>
-                <img src={image1} alt="Primeira imagem"/>
-                {/* <div></div> */}
-            </div>            
+                <img src={filme1} alt="capa filme 1" />
+                <div class="img-legend">
+                    <div class="text-legend">
+                    <h4>Nome do filme</h4>
+                    <h6>qualquer coisa escrita aqui só pra ocupar espaço</h6>  
+                    </div>
+                    <div class="more-details">
+                    <button>
+                        <span>+</span>
+                    </button>
+                    </div>
+                </div>    
+            </div>      
         </div>
     )
 }
